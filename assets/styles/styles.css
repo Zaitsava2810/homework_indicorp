@@ -384,5 +384,31 @@ h2 {
     width: 1053px;
     height: 442px;
 
-    background-color: #252B42;
 }
+
+.video {
+    width: 597px;
+    height: 442px;
+
+}
+
+.about__bisness {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 330px;
+    height: 224px;
+    background-color: #ff0000;
+}
+
+.about__text {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #737373;
+   
+    width: 330px;
+    margin: 0 auto;
+    margin: 10px 0;
