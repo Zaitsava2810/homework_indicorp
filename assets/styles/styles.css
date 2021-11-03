@@ -353,15 +353,23 @@ h2 {
     bottom: 0;
 }
 
-/* BISSNES CERVICE */
+/* BISSNES SERVICE */
 
-.bisness__advice {
-    width: 100%;
-    background-color: #FFF;
-    padding-top: 10px;
+.bisness__service {
+   margin-bottom: 100%;
 }
 
-.bisness__text {
+.bisness__title {
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    line-height: 57px;
+    color: #252B42;
+    padding-top: 190px;
+    text-align: center;  
+}
+
+.p__text {
     font-size: 14px;
     letter-spacing: 0.2px;
     line-height: 20px;
@@ -371,44 +379,81 @@ h2 {
     width: 470px;
     margin: 0 auto;
     padding-top: 10px;
+    margin-bottom: 100px;
 }
 
-.bisness__item {
+.bisness__section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+}
 
-    position: static;
-    margin: 100px 0;
-     
-    width: 1053px;
+.bisness__photo {
+    width: 577px;
     height: 442px;
-
-}
-
-.video {
-    width: 597px;
-    height: 442px;
-
-}
-
-.about__bisness {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    width: 330px;
-    height: 224px;
-    background-color: #ff0000;
-}
-
-.about__text {
-    font-size: 14px;
-    letter-spacing: 0.2px;
-    line-height: 20px;
-    font-weight: 500;
-    color: #737373;
    
-    width: 330px;
-    margin: 0 auto;
-    margin: 10px 0;
+}
+
+.bisness__text {
+    width: 333px;
+    margin-left: 122px;
+    margin-top: 22px;
+}
+
+.bisness__text h2{
+    padding: 0;
+    text-align: left;
+}
+
+.bisness__text p {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: left;
+    width: 325px;
+}
+
+.bisness__icon-4 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.text__icon-4 {
+    margin-left: 21px;
+}
+
+.bisness__icon-4 p span {
+    font-weight: 700;
+    width: 286px;
+    color: #252B42;
+}
+
+.bisness__icon-4 p {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    width: 286px;
+}
+
+.bisness__icon-5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text__icon-5 {
+    margin-left: 21px;
+}
+
+.bisness__icon-5 p span {
+    font-weight: 700;
+    width: 286px;
+    color: #252B42;
+}
+
+.bisness__icon-5 p {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    width: 286px;
+}
