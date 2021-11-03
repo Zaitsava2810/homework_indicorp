@@ -289,7 +289,7 @@ h2 {
 }
 
 
-/* PRACTISE ADVICE */
+/* PRACTICE ADVICE */
 
 .practice__advice {
     width: 100%;
@@ -355,10 +355,34 @@ h2 {
 
 /* BISSNES CERVICE */
 
-.practice__advice {
+.bisness__advice {
     width: 100%;
     background-color: #FFF;
     padding-top: 10px;
 }
 
+.bisness__text {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #737373;
+    text-align: center;
+    width: 470px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
 
+.bisness__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    position: static;
+    margin: 100px 0;
+     
+    width: 1053px;
+    height: 442px;
+
+    background-color: #252B42;
+}
