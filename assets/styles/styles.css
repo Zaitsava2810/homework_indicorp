@@ -356,7 +356,7 @@ h2 {
 /* BISSNES SERVICE */
 
 .bisness__service {
-   margin-bottom: 100%;
+   margin-bottom: 100px;
 }
 
 .bisness__title {
@@ -576,3 +576,157 @@ input {
     background-color: #252B42;
     margin-top: -56px;
 }
+
+
+/* TELEPHONE */
+.telephone {
+    width: 100%;
+    background-color: #F3F3F3;
+    padding-bottom: 148px
+}
+
+.telephone p {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #737373;
+    text-align: center;
+    width: 470px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.telephone__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.phone {
+    width: 327px;
+    height: 333px;
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+.phone img {
+    margin-bottom: 15px;
+}
+
+.phone p {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: #252B42;
+}
+
+.location {
+    width: 329px;
+    height: 393px;
+    background-color: #252B42;
+    padding-top: 80px;
+}
+
+.location img {
+    margin-bottom: 15px;
+}
+
+.location p {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.post {
+    width: 327px;
+    height: 333px;
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+.post img {
+    margin-bottom: 15px;
+}
+
+.post p {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: #252B42;
+}
+
+.support {
+    display: flex;
+    font-size: 16px;
+    letter-spacing: 0.1;
+    line-height: 24px;
+    font-weight: 700;
+    color: #252B42;
+    border: none;
+    background: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.support-location {
+    display: flex;
+    font-size: 16px;
+    letter-spacing: 0.1;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    background: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.request {
+    display: flex;
+    font-size: 14px;
+    letter-spacing: 0.2;
+    line-height: 24px;
+    font-weight: 600;
+    color: #FFA62B;
+    border: none;
+    background: none;
+    margin: 0 auto;
+}
+
+.request-location {
+    display: flex;
+    font-size: 14px;
+    letter-spacing: 0.2;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.request-post {
+    display: flex;
+    font-size: 14px;
+    letter-spacing: 0.2;
+    line-height: 24px;
+    font-weight: 600;
+    color: #FFA62B;
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    background: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+
