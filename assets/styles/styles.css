@@ -390,7 +390,42 @@ h2 {
 .bisness__photo {
     width: 577px;
     height: 442px;
-   
+
+    position: relative;
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 34.8px 36.8px;
+
+    width: 97.6px;
+    height: 98.4px;
+    border-radius: 73.6px;
+
+    background-color: #00A0C1;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: calc(50% - 98.4px/2 + 0.2px);
+
+}
+
+.play__2 {
+    display: block;
+  
+    width: 0;
+    height: 0;
+    border: 24px solid transparent;
+    border-left-color: #fff;
+
+    position: absolute;
+    right: 0;
+    left: 49%;
+    top: 45%;
 }
 
 .bisness__text {
