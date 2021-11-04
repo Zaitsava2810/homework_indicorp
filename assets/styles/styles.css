@@ -1,4 +1,5 @@
-/* GLOBAL */
+@media screnn and (min-width 1600px) {
+    /* GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -889,3 +890,5 @@ footer {
     justify-content: space-between;
 }
 
+
+}
